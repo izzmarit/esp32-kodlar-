@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "type": 0,
+    "target_temp": 37.8,
+    "target_humidity": 65.0,
+    "total_days": 21,
+    "start_time": 0,
+    "motor_enabled": true,
+    "pid_kp": 10.0,
+    "pid_ki": 0.1,
+    "pid_kd": 50.0,
+    "hum_hysteresis": 2.0
+  },
+  "motor": {
+    "duration": 14000,
+    "interval": 7200000
+  },
+  "alarm": {
+    "enabled": true,
+    "high_temp": 38.5,
+    "low_temp": 36.5,
+    "high_hum": 80.0,
+    "low_hum": 50.0,
+    "temp_diff": 2.0,
+    "hum_diff": 10.0
+  },
+  "calibration": {
+    "temp_offset1": 0.0,
+    "hum_offset1": 0.0,
+    "temp_offset2": 0.0,
+    "hum_offset2": 0.0
+  },
+  "power_save": {
+    "level": 0,
+    "screen_saver_mode": 1,
+    "screen_saver_timeout": 180000
+  }
+}
