@@ -1,0 +1,12 @@
+{
+    "ap_mode": {
+      "ssid": "KuluçkaKontrol",
+      "password": "12345678"
+    },
+    "sta_mode": {
+      "ssid": "",
+      "password": ""
+    },
+    "hostname": "kulucka",
+    "auto_connect": false
+  }
